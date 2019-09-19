@@ -34,6 +34,10 @@
 
     completionHandler(NCUpdateResultNewData);
 }
+// 展开／折叠监听
+- (void)widgetActiveDisplayModeDidChange:(NCWidgetDisplayMode)activeDisplayMode withMaximumSize:(CGSize)maxSize{
+    
+}
 
 - (void)setUpDynamicUI{
     CGFloat width = kScreenWidth;
